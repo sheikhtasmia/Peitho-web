@@ -1,6 +1,7 @@
 import React from 'react';
 import { Mail, Phone, CalendarCheck, Facebook, Linkedin, Twitter } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { FaLocationArrow } from 'react-icons/fa';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 40 },
@@ -94,10 +95,10 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex items-start gap-4">
-              <CalendarCheck className="text-indigo-500 w-6 h-6 mt-1" />
+              <FaLocationArrow className="text-indigo-500 w-6 h-6 mt-1" />
               <div>
-                <h4 className="font-semibold">Book a Consultation</h4>
-                
+                <h4 className="font-semibold">Address</h4>
+                <p>college para, Tangail</p>
               </div>
             </div>
             <div className="mt-8">
