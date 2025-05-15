@@ -124,10 +124,7 @@ const CaseStudy = () => {
                 type: 'video',
                 src: 'https://www.w3schools.com/html/mov_bbb.mp4',
             },
-            testimonial: {
-                text: 'Absolutely amazing experience — performance and polish were top-notch.',
-                name: 'Jane Doe',
-            },
+            
         },
     ];
 
