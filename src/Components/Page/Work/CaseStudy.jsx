@@ -113,10 +113,7 @@ const CaseStudy = () => {
                 src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fragment_of_a_terracotta_skyphos_%28deep_drinking_cup%29_MET_SF0728651b.jpg/500px-Fragment_of_a_terracotta_skyphos_%28deep_drinking_cup%29_MET_SF0728651b.jpg',
                 alt: 'Website redesign mockup',
             },
-            testimonial: {
-                text: 'They really brought our vision to life. The outcome speaks for itself!',
-                name: 'Mark Leon',
-            },
+            
         },
         {
             title: '',
