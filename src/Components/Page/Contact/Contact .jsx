@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, CalendarCheck, Facebook, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, CalendarCheck, Facebook, Linkedin, Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { FaLocationArrow } from 'react-icons/fa';
 
@@ -104,9 +104,9 @@ const Contact = () => {
             <div className="mt-8">
               <h4 className="font-semibold mb-2">Follow us</h4>
               <div className="flex gap-4">
-                <a href="#" className="text-indigo-600 hover:text-indigo-800"><Facebook /></a>
-                <a href="#" className="text-indigo-600 hover:text-indigo-800"><Linkedin /></a>
-                <a href="#" className="text-indigo-600 hover:text-indigo-800"><Twitter /></a>
+                <a href="https://www.facebook.com/peithology" className="text-indigo-600 hover:text-indigo-800"><Facebook /></a>
+                <a href="https://www.linkedin.com/company/107271127" className="text-indigo-600 hover:text-indigo-800"><Linkedin /></a>
+                <a href="https://www.instagram.com/peitho25/" className="text-indigo-600 hover:text-indigo-800"><Instagram /></a>
               </div>
             </div>
           </motion.div>
