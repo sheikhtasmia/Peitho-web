@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Linkedin, Instragram } from 'lucide-react';
+import { Facebook, Linkedin, Instagram } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -30,17 +30,16 @@ const Footer = () => {
                     </ul>
                 </div>
 
-
                 {/* Social Media Icons */}
                 <div className="flex md:justify-end gap-4">
-                    <a href="https://www.facebook.com/peithology" aria-label="Facebook" className="text-gray-500 hover:text-indigo-600 transition">
+                    <a href="https://www.facebook.com/peithology" aria-label="Facebook" className="text-gray-500 hover:text-indigo-600 transition" target="_blank" rel="noopener noreferrer">
                         <Facebook className="w-5 h-5" />
                     </a>
-                    <a href="https://www.linkedin.com/company/107271127" aria-label="LinkedIn" className="text-gray-500 hover:text-indigo-600 transition">
+                    <a href="https://www.linkedin.com/company/107271127" aria-label="LinkedIn" className="text-gray-500 hover:text-indigo-600 transition" target="_blank" rel="noopener noreferrer">
                         <Linkedin className="w-5 h-5" />
                     </a>
-                    <a href="https://www.instagram.com/peitho25/" aria-label="Instragram" className="text-gray-500 hover:text-indigo-600 transition">
-                        <Instragram className="w-5 h-5" />
+                    <a href="https://www.instagram.com/peitho25/" aria-label="Instagram" className="text-gray-500 hover:text-indigo-600 transition" target="_blank" rel="noopener noreferrer">
+                        <Instagram className="w-5 h-5" />
                     </a>
                 </div>
             </div>
@@ -54,3 +53,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
