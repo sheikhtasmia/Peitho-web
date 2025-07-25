@@ -84,14 +84,14 @@ const Contact = () => {
               <Mail className="text-indigo-500 w-6 h-6 mt-1" />
               <div>
                 <h4 className="font-semibold">Email</h4>
-                <p>hello@peithology.com</p>
+                <p>peithology@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <Phone className="text-indigo-500 w-6 h-6 mt-1" />
               <div>
                 <h4 className="font-semibold">Phone</h4>
-                <p>+1 (555) 123-4567</p>
+                <p>.</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
