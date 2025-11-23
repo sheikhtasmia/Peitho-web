@@ -66,10 +66,12 @@ const services = [
 const Service = () => {
   return (
     <section id='service' className="py-20 px-6 md:px-20 bg-white text-gray-900">
+
       <h2 className="text-4xl font-bold text-center text-sky-700 mb-14">
         What We Offer
       </h2>
 
+      {/* SERVICE CARDS */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
         {services.map((service, index) => (
           <div
@@ -97,6 +99,34 @@ const Service = () => {
           </div>
         ))}
       </div>
+
+      {/* VIDEO SECTION */}
+      <h2 className="text-3xl font-bold text-center text-sky-700 mt-20 mb-10">
+        Our Work — Video Showcase
+      </h2>
+
+      <div className="grid md:grid-cols-2 gap-10">
+        {/* Video 1 */}
+        <div className="w-full">
+          <iframe
+            src="https://streamable.com/e/8vcjao"
+            className="w-full h-64 rounded-xl shadow-lg"
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        {/* Video 2 */}
+        <div className="w-full">
+          <iframe
+            src="https://streamable.com/e/gustji"
+            className="w-full h-64 rounded-xl shadow-lg"
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
+
     </section>
   );
 };
